@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Projects{%endblock%}
+
+{% block content %}
+    <!-- Projects Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        
+      </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">              
+                <h3>Footprint Count Using Face Detection</h3>
+              
+              <p>
+                This project is both hardware and software module.Project is based on face detection and counting the number of customer visiting the store. To be more precise ,if the person's face does not matches with the dataset present in the system,then it shows that the person is unknown and will keep the count of it and display it in MQTT app. 
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-cyan position-relative">     
+                <h3>Employee Management System</h3>             
+              <p >
+                The Employee Management System is a web-based application built using Django that helps organizations efficiently manage employee information, roles, and departmental structure. This system allows HR and administrative users to perform CRUD operations on employee data and organize employees under different departments and roles. 
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-cyan position-relative">
+                <h3>Library Management System</h3>
+              <p>
+                The Library Management System is a web-based application developed using Django that simplifies the process of managing books by admin and also helps students to view all the books. 
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-cyan position-relative">
+                <h3>Blog website </h3>
+              <p>
+                The BlogPost and Comment API is a RESTful service developed using Django REST Framework that enables the management of blog posts and associated user comments. It allows users to perform CRUD operations on blog posts, and readers can add comments to posts. Comments are nested within blog posts to provide context and facilitate content engagement.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-cyan position-relative">
+              {% comment %} <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" >
+                </svg>
+              </div> {% endcomment %}
+                <h3>Ecommerce website </h3>
+              <p>
+                Full-featured eCommerce web application using Django that enables users to browse products, manage a shopping cart, and securely place orders online. The project includes user authentication, product management, order processing, and payment integration. It features a responsive design and an admin dashboard for managing products and orders. This project demonstrates proficiency in Django, database management, and building scalable web applications.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+{% endblock %}    
+
